@@ -1,25 +1,75 @@
 <!doctype html>
 <html>
 <head>
-  <title>구가네 식구들</title>
+  <title>Family koo</title>
   <meta charset="utf-8">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZQG9LEVMZK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZQG9LEVMZK');
+  </script>
+  <style>
+    body{
+      margin:0;
+    }
+    a{
+      color:black;
+      text-decoration: none;
+    }
+    .saw{
+      color:gray;
+    }
+    h1{
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin:0;
+        padding:20px;
+        }
+    ol{
+       border-right: 1px solid gray;
+       width:100px;
+       margin:0;
+       padding:30px;
+      }
+      #grid{
+        display:grid;
+        grid-template-columns: 150px 1fr;
+      }
+      #article{
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+      .saw{
+        color: red;
+      }
+  </style>
 </head>
 
 <body>
-  <h1><a href="index.html"> 구가네 식구들</h1>
+  <h1><a href="index.html">구가네 식구들s</a></h1>
 
-  <ol>
-    <li><a href="1.html">구기동</li></a>
-    <li><a href="2.html">구콩시</li></a>
-  </ol>
-  <ol>
-    <li><a href="3.html">구아영</li></a>
-    <li><a href="4.html">이동원</li></a>
-  </ol>
+  <div id="grid">
+    <div>
+    <ol>
+      <li><a href="1.html" class="saw">구기동</a></li>
+      <li><a href="2.html">구콩시</a></li>
+      <li><a href="3.html">구아영</a></li>
+      <li><a href="4.html">이동원</a></li>
+    </ol>
+    </div>
+    <div id="article">
 
-<h2>구기동</h2>
-  <img src="kidong.jpg" width=40%">
-  <br><strong><a href="https://www.bing.com/search?q=%EA%B5%AC%EA%B8%B0%EB%8F%99&cvid=49d56fd2bab44eb4a39510d2620e3182&aqs=edge..69i57j69i59j69i61l2.1239j0j4&FORM=ANAB01&PC=U531">
-    구기동</a></strong> 은 <u>돼지다</u>. 맨날 밥만먹고 똥만싸고 잠만잔다. 신발장에 배를 대고 누워있는걸 좋아한다.
-
+    <img src="kidong.jpg" width="50%">
+    <h2>구기동</h2>
+    <p>
+    항상 웃는 표정의 기동이 먹는걸 정말 좋아한다.
+    </p>
+    </div>
+  </div>
 </body>
+</html>
